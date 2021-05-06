@@ -2,8 +2,8 @@
   if(isset($_POST['submit'])){
     $name=$_POST['name'];
     $email=$_POST['email'];
-    $phone=$_POST['phone'];
-    $msg=$_POST['msg'];
+    $phone=$_POST['subject'];
+    $msg=$_POST['message'];
 
     $to='eliyaser3121@yahoo.com'; // Receiver Email ID, Replace with your email ID
     $subject='Form Submission';
